@@ -1,0 +1,804 @@
+{
+  "source_files": {
+    "Q_Total_Data84.rds": {
+      "sha256": "57a5a663cc1bb2991bf12d20450c0ba702a72a672e0fc99f1ef7ec8669e461f1"
+    },
+    "Macro_vars.rds": {
+      "sha256": "7191e0fd12f0bbc5de1f373ab897b61503a90d3e99ce2ae765754a1d1c311442"
+    }
+  },
+  "n_rows": 809472,
+  "n_source_characteristics": 45,
+  "n_binary_features": 225,
+  "dtype": "uint8",
+  "thresholds": [
+    -0.30000001192092896,
+    -0.10000000149011612,
+    0.10000000149011612,
+    0.30000001192092896
+  ],
+  "missing_encoding": {
+    "threshold_bits_when_missing": 0,
+    "missing_bit_when_missing": 1
+  },
+  "characteristics": [
+    "A2ME",
+    "AC",
+    "AT",
+    "ATO",
+    "B2M",
+    "BETA_d",
+    "BETA_m",
+    "C2A",
+    "CF2B",
+    "CF2P",
+    "CTO",
+    "D2A",
+    "D2P",
+    "DPI2A",
+    "E2P",
+    "FC2Y",
+    "HIGH52",
+    "INV",
+    "IdioVol",
+    "LEV",
+    "ME",
+    "NI",
+    "NOA",
+    "OA",
+    "OL",
+    "OP",
+    "PCM",
+    "PM",
+    "PROF",
+    "Q",
+    "R12_2",
+    "R12_7",
+    "R2_1",
+    "R36_13",
+    "R60_13",
+    "RNA",
+    "ROA",
+    "ROE",
+    "RVAR",
+    "S2P",
+    "SGA2S",
+    "SPREAD",
+    "SUV",
+    "TURN",
+    "VAR"
+  ],
+  "feature_schema": {
+    "A2ME": {
+      "column_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "binary_features": [
+        "A2ME__gt_m0p3",
+        "A2ME__gt_m0p1",
+        "A2ME__gt_p0p1",
+        "A2ME__gt_p0p3",
+        "A2ME__missing"
+      ]
+    },
+    "AC": {
+      "column_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "binary_features": [
+        "AC__gt_m0p3",
+        "AC__gt_m0p1",
+        "AC__gt_p0p1",
+        "AC__gt_p0p3",
+        "AC__missing"
+      ]
+    },
+    "AT": {
+      "column_indices": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "binary_features": [
+        "AT__gt_m0p3",
+        "AT__gt_m0p1",
+        "AT__gt_p0p1",
+        "AT__gt_p0p3",
+        "AT__missing"
+      ]
+    },
+    "ATO": {
+      "column_indices": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "binary_features": [
+        "ATO__gt_m0p3",
+        "ATO__gt_m0p1",
+        "ATO__gt_p0p1",
+        "ATO__gt_p0p3",
+        "ATO__missing"
+      ]
+    },
+    "B2M": {
+      "column_indices": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "binary_features": [
+        "B2M__gt_m0p3",
+        "B2M__gt_m0p1",
+        "B2M__gt_p0p1",
+        "B2M__gt_p0p3",
+        "B2M__missing"
+      ]
+    },
+    "BETA_d": {
+      "column_indices": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "binary_features": [
+        "BETA_d__gt_m0p3",
+        "BETA_d__gt_m0p1",
+        "BETA_d__gt_p0p1",
+        "BETA_d__gt_p0p3",
+        "BETA_d__missing"
+      ]
+    },
+    "BETA_m": {
+      "column_indices": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "binary_features": [
+        "BETA_m__gt_m0p3",
+        "BETA_m__gt_m0p1",
+        "BETA_m__gt_p0p1",
+        "BETA_m__gt_p0p3",
+        "BETA_m__missing"
+      ]
+    },
+    "C2A": {
+      "column_indices": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "binary_features": [
+        "C2A__gt_m0p3",
+        "C2A__gt_m0p1",
+        "C2A__gt_p0p1",
+        "C2A__gt_p0p3",
+        "C2A__missing"
+      ]
+    },
+    "CF2B": {
+      "column_indices": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "binary_features": [
+        "CF2B__gt_m0p3",
+        "CF2B__gt_m0p1",
+        "CF2B__gt_p0p1",
+        "CF2B__gt_p0p3",
+        "CF2B__missing"
+      ]
+    },
+    "CF2P": {
+      "column_indices": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "binary_features": [
+        "CF2P__gt_m0p3",
+        "CF2P__gt_m0p1",
+        "CF2P__gt_p0p1",
+        "CF2P__gt_p0p3",
+        "CF2P__missing"
+      ]
+    },
+    "CTO": {
+      "column_indices": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "binary_features": [
+        "CTO__gt_m0p3",
+        "CTO__gt_m0p1",
+        "CTO__gt_p0p1",
+        "CTO__gt_p0p3",
+        "CTO__missing"
+      ]
+    },
+    "D2A": {
+      "column_indices": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "binary_features": [
+        "D2A__gt_m0p3",
+        "D2A__gt_m0p1",
+        "D2A__gt_p0p1",
+        "D2A__gt_p0p3",
+        "D2A__missing"
+      ]
+    },
+    "D2P": {
+      "column_indices": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "binary_features": [
+        "D2P__gt_m0p3",
+        "D2P__gt_m0p1",
+        "D2P__gt_p0p1",
+        "D2P__gt_p0p3",
+        "D2P__missing"
+      ]
+    },
+    "DPI2A": {
+      "column_indices": [
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "binary_features": [
+        "DPI2A__gt_m0p3",
+        "DPI2A__gt_m0p1",
+        "DPI2A__gt_p0p1",
+        "DPI2A__gt_p0p3",
+        "DPI2A__missing"
+      ]
+    },
+    "E2P": {
+      "column_indices": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "binary_features": [
+        "E2P__gt_m0p3",
+        "E2P__gt_m0p1",
+        "E2P__gt_p0p1",
+        "E2P__gt_p0p3",
+        "E2P__missing"
+      ]
+    },
+    "FC2Y": {
+      "column_indices": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "binary_features": [
+        "FC2Y__gt_m0p3",
+        "FC2Y__gt_m0p1",
+        "FC2Y__gt_p0p1",
+        "FC2Y__gt_p0p3",
+        "FC2Y__missing"
+      ]
+    },
+    "HIGH52": {
+      "column_indices": [
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "binary_features": [
+        "HIGH52__gt_m0p3",
+        "HIGH52__gt_m0p1",
+        "HIGH52__gt_p0p1",
+        "HIGH52__gt_p0p3",
+        "HIGH52__missing"
+      ]
+    },
+    "INV": {
+      "column_indices": [
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "binary_features": [
+        "INV__gt_m0p3",
+        "INV__gt_m0p1",
+        "INV__gt_p0p1",
+        "INV__gt_p0p3",
+        "INV__missing"
+      ]
+    },
+    "IdioVol": {
+      "column_indices": [
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "binary_features": [
+        "IdioVol__gt_m0p3",
+        "IdioVol__gt_m0p1",
+        "IdioVol__gt_p0p1",
+        "IdioVol__gt_p0p3",
+        "IdioVol__missing"
+      ]
+    },
+    "LEV": {
+      "column_indices": [
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "binary_features": [
+        "LEV__gt_m0p3",
+        "LEV__gt_m0p1",
+        "LEV__gt_p0p1",
+        "LEV__gt_p0p3",
+        "LEV__missing"
+      ]
+    },
+    "ME": {
+      "column_indices": [
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "binary_features": [
+        "ME__gt_m0p3",
+        "ME__gt_m0p1",
+        "ME__gt_p0p1",
+        "ME__gt_p0p3",
+        "ME__missing"
+      ]
+    },
+    "NI": {
+      "column_indices": [
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "binary_features": [
+        "NI__gt_m0p3",
+        "NI__gt_m0p1",
+        "NI__gt_p0p1",
+        "NI__gt_p0p3",
+        "NI__missing"
+      ]
+    },
+    "NOA": {
+      "column_indices": [
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "binary_features": [
+        "NOA__gt_m0p3",
+        "NOA__gt_m0p1",
+        "NOA__gt_p0p1",
+        "NOA__gt_p0p3",
+        "NOA__missing"
+      ]
+    },
+    "OA": {
+      "column_indices": [
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "binary_features": [
+        "OA__gt_m0p3",
+        "OA__gt_m0p1",
+        "OA__gt_p0p1",
+        "OA__gt_p0p3",
+        "OA__missing"
+      ]
+    },
+    "OL": {
+      "column_indices": [
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "binary_features": [
+        "OL__gt_m0p3",
+        "OL__gt_m0p1",
+        "OL__gt_p0p1",
+        "OL__gt_p0p3",
+        "OL__missing"
+      ]
+    },
+    "OP": {
+      "column_indices": [
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "binary_features": [
+        "OP__gt_m0p3",
+        "OP__gt_m0p1",
+        "OP__gt_p0p1",
+        "OP__gt_p0p3",
+        "OP__missing"
+      ]
+    },
+    "PCM": {
+      "column_indices": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "binary_features": [
+        "PCM__gt_m0p3",
+        "PCM__gt_m0p1",
+        "PCM__gt_p0p1",
+        "PCM__gt_p0p3",
+        "PCM__missing"
+      ]
+    },
+    "PM": {
+      "column_indices": [
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "binary_features": [
+        "PM__gt_m0p3",
+        "PM__gt_m0p1",
+        "PM__gt_p0p1",
+        "PM__gt_p0p3",
+        "PM__missing"
+      ]
+    },
+    "PROF": {
+      "column_indices": [
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "binary_features": [
+        "PROF__gt_m0p3",
+        "PROF__gt_m0p1",
+        "PROF__gt_p0p1",
+        "PROF__gt_p0p3",
+        "PROF__missing"
+      ]
+    },
+    "Q": {
+      "column_indices": [
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "binary_features": [
+        "Q__gt_m0p3",
+        "Q__gt_m0p1",
+        "Q__gt_p0p1",
+        "Q__gt_p0p3",
+        "Q__missing"
+      ]
+    },
+    "R12_2": {
+      "column_indices": [
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "binary_features": [
+        "R12_2__gt_m0p3",
+        "R12_2__gt_m0p1",
+        "R12_2__gt_p0p1",
+        "R12_2__gt_p0p3",
+        "R12_2__missing"
+      ]
+    },
+    "R12_7": {
+      "column_indices": [
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "binary_features": [
+        "R12_7__gt_m0p3",
+        "R12_7__gt_m0p1",
+        "R12_7__gt_p0p1",
+        "R12_7__gt_p0p3",
+        "R12_7__missing"
+      ]
+    },
+    "R2_1": {
+      "column_indices": [
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "binary_features": [
+        "R2_1__gt_m0p3",
+        "R2_1__gt_m0p1",
+        "R2_1__gt_p0p1",
+        "R2_1__gt_p0p3",
+        "R2_1__missing"
+      ]
+    },
+    "R36_13": {
+      "column_indices": [
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "binary_features": [
+        "R36_13__gt_m0p3",
+        "R36_13__gt_m0p1",
+        "R36_13__gt_p0p1",
+        "R36_13__gt_p0p3",
+        "R36_13__missing"
+      ]
+    },
+    "R60_13": {
+      "column_indices": [
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "binary_features": [
+        "R60_13__gt_m0p3",
+        "R60_13__gt_m0p1",
+        "R60_13__gt_p0p1",
+        "R60_13__gt_p0p3",
+        "R60_13__missing"
+      ]
+    },
+    "RNA": {
+      "column_indices": [
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "binary_features": [
+        "RNA__gt_m0p3",
+        "RNA__gt_m0p1",
+        "RNA__gt_p0p1",
+        "RNA__gt_p0p3",
+        "RNA__missing"
+      ]
+    },
+    "ROA": {
+      "column_indices": [
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "binary_features": [
+        "ROA__gt_m0p3",
+        "ROA__gt_m0p1",
+        "ROA__gt_p0p1",
+        "ROA__gt_p0p3",
+        "ROA__missing"
+      ]
+    },
+    "ROE": {
+      "column_indices": [
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "binary_features": [
+        "ROE__gt_m0p3",
+        "ROE__gt_m0p1",
+        "ROE__gt_p0p1",
+        "ROE__gt_p0p3",
+        "ROE__missing"
+      ]
+    },
+    "RVAR": {
+      "column_indices": [
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "binary_features": [
+        "RVAR__gt_m0p3",
+        "RVAR__gt_m0p1",
+        "RVAR__gt_p0p1",
+        "RVAR__gt_p0p3",
+        "RVAR__missing"
+      ]
+    },
+    "S2P": {
+      "column_indices": [
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "binary_features": [
+        "S2P__gt_m0p3",
+        "S2P__gt_m0p1",
+        "S2P__gt_p0p1",
+        "S2P__gt_p0p3",
+        "S2P__missing"
+      ]
+    },
+    "SGA2S": {
+      "column_indices": [
+        200,
+        201,
+        202,
+        203,
+        204
+      ],
+      "binary_features": [
+        "SGA2S__gt_m0p3",
+        "SGA2S__gt_m0p1",
+        "SGA2S__gt_p0p1",
+        "SGA2S__gt_p0p3",
+        "SGA2S__missing"
+      ]
+    },
+    "SPREAD": {
+      "column_indices": [
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "binary_features": [
+        "SPREAD__gt_m0p3",
+        "SPREAD__gt_m0p1",
+        "SPREAD__gt_p0p1",
+        "SPREAD__gt_p0p3",
+        "SPREAD__missing"
+      ]
+    },
+    "SUV": {
+      "column_indices": [
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "binary_features": [
+        "SUV__gt_m0p3",
+        "SUV__gt_m0p1",
+        "SUV__gt_p0p1",
+        "SUV__gt_p0p3",
+        "SUV__missing"
+      ]
+    },
+    "TURN": {
+      "column_indices": [
+        215,
+        216,
+        217,
+        218,
+        219
+      ],
+      "binary_features": [
+        "TURN__gt_m0p3",
+        "TURN__gt_m0p1",
+        "TURN__gt_p0p1",
+        "TURN__gt_p0p3",
+        "TURN__missing"
+      ]
+    },
+    "VAR": {
+      "column_indices": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "binary_features": [
+        "VAR__gt_m0p3",
+        "VAR__gt_m0p1",
+        "VAR__gt_p0p1",
+        "VAR__gt_p0p3",
+        "VAR__missing"
+      ]
+    }
+  },
+  "date_range": [
+    "1984-03-31",
+    "2020-12-31"
+  ],
+  "source_missing_cells": 3736252,
+  "constant_binary_features": [
+    "D2P__missing",
+    "ME__missing",
+    "R2_1__missing",
+    "SPREAD__missing"
+  ]
+}

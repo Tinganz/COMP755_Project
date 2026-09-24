@@ -1,0 +1,7 @@
+cat >> .gitignore << 'EOF'
+
+# Large data files
+data/*.rds
+data/processed/*.parquet
+data/processed/*.npy
+EOF
